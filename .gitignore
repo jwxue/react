@@ -1,0 +1,15 @@
+*.log
+.project
+.vscode
+.history
+.DS_Store
+\.settings/
+build/env.js
+build
+dist/
+.idea
+package-lock.json
+node_modules
+node_modules1
+#src/service/axios.js
+#src/config/index.js
