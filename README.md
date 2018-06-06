@@ -45,7 +45,7 @@
 
 #使用Dll插件优化webpack开发构建速度
 预打包第三方库文件
-npm run dl
+npm run dll
 
 #koa提供静态文件服务
 将项目中的dist目录静态化.
@@ -71,3 +71,7 @@ build后的index.html中的标签
 
 TODO:
 //能否在build时删除
+
+
+#RUN
+npm start
