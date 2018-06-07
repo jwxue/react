@@ -84,4 +84,6 @@ TODO:
 
 ## RUN
 
-npm start
+npm start  
+访问localhost:3001  
+默认端口在server.js中根据实际情况修改  
