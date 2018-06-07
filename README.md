@@ -3,10 +3,10 @@ README
 
 ## 目录结构
 
-│  .babelrc                     //babel配置文件
-│  package-lock.json
-│  package.json
-│  README.md
+│  .babelrc                     //babel配置文件 
+│  package-lock.json 
+│  package.json 
+│  README.md 
 │
 │ ├─server                      //存放服务端代码文件
 │  │  server.js                 //开启http服务
