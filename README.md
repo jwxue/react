@@ -3,89 +3,48 @@ README
 
 ## 目录结构
 
-│  .babelrc                       //babel配置文件
-
+│  .babelrc                     //babel配置文件
 │  package-lock.json
-
 │  package.json
-
 │  README.md
-
 │
-
-│ ├─server                          //存放服务端代码文件
-
-│  │  server.js                   //开启http服务
-
+│ ├─server                      //存放服务端代码文件
+│  │  server.js                 //开启http服务
 │  │
-
 │  └─middleware
-
 │          devMiddleware.js       
-
 │          hotMiddleware.js
-
 │
-
-├─src                             //存放前端业务代码文件
-
-│  │  index.js                    //前端页面入口文件
-
+├─src                            //存放前端业务代码文件
+│  │  index.js                   //前端页面入口文件
 │  │
-
 │  ├─actions                     //存放action文件
-
 │  │      counter.js
-
 │  │
-
 │  │
-
 │  ├─assets                      //前端静态资源目录
-
 │  │      index.html
-
 │  │
-
 │  ├─components                  //存放你的react组件
-
 │  │      App.js
-
 │  │      app.less
-
 │  │
-
 │  ├─constants                   //存放actionType以及其他常量
-
 │  │      index.js
-
 │  │
-
 │  ├─containers                  //存放容器组件
-
 │  ├─helper                      //存放一些自己的工具函数
-
 │  │
-
 │  │
-
 │  ├─reducers                    //存放reducer文件
-
 │  │      counter.js
-
 │  │      index.js
-
 │  │
-
-│  └─store                      //store配置文件
-
-│          configureStore.js
-
+│  └─store                       //store配置文件
+│         configureStore.js
 │
-
 └─webpack                        //存放webpack配置文件
-
-        webpack.config.js
+          webpack.config.js
         
 
 
